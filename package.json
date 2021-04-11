@@ -1,0 +1,18 @@
+{
+  "name": "google_drive_downloader",
+  "version": "1.0.0",
+  "description": "",
+  "author": "jairajdev",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node httpServer.js",
+    "downloader": "node downloader.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cli-progress": "^3.9.0",
+    "serve": "^11.3.2"
+  }
+}
